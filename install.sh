@@ -22,3 +22,6 @@ echo "Copied all python/bash/json files to $robo_dir and gave permission.
 This simply installs the set of python, Bash and JSON file to the robo_dir directory 
 The find command is used to locate all these files on the directory and sub directory and copies 
 them to the robo_dir"
+
+
+echo "Added $INSTALL_DIR to PYTHONPATH and PATH."
