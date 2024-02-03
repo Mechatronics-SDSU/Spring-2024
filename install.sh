@@ -2,6 +2,13 @@
 
 INSTALL_DIR="$HOME/ROBOT_LIBRARY"
 
+# Add the installation directory to the PYTHONPATH
+export PYTHONPATH="$INSTALL_DIR:$PYTHONPATH"
+
+# Add the installation directory to the PATH
+export PATH="$INSTALL_DIR:$PATH"
+
+
 mkdir -p "$INSTALL_DIR"
 # Define the source directory and the destination directory
 robo_dir=$INSTALL_DIR
